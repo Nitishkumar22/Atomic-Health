@@ -1,0 +1,458 @@
+@font-face{
+    font-family:gilroy;
+    src: url(Gilroy-Light.otf);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: gilroy;
+    src: url(Gilroy-Light.otf);
+    font-weight: 500;
+}
+@font-face{
+    font-family: gilroy;
+    src: url(Gilroy-ExtraBold.otf);
+    font-weight: 600;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: rgb(0, 0, 215 );
+}
+#nav{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    padding: 2vw 17vw;
+    background-color:transparent;
+
+}
+#nav>h1{
+    color: white;
+    font-size: 2.5vw;
+    font-weight: 500;
+    /* mix-blend-mode:difference; */
+
+}
+#menu{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50%;
+    border: 2px solid aqua;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+    background-color: transparent;
+    /* mix-blend-mode:difference; */
+
+}
+#page1b{
+    position: relative;
+    
+    height: 100vh;
+    display: flex;
+    /* background-color: red; */
+}
+#left{
+    padding: 16vw 10vw;
+    /* min-height: 100vh; */
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    
+}
+#left>h3{
+    font-size: 7vw;
+    /* margin-left: 20%; */
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;   
+}
+#right{
+    height: 100vh;
+    width: 30vw;
+    position: relative;
+    /* background-color: red; */
+    overflow: hidden;
+}
+#rightpart1{
+    height: 100vh;
+    width: 100%;
+   /* background-color: red; */
+
+}
+#rightpart2{
+    height: 100vh;
+    width: 100%;
+   /* background-color: red; */
+
+}
+#rightpart3{
+    height: 100vh;
+    width: 100%;
+   /* background-color: red; */
+
+}
+#right img{
+   height: 130px;
+   margin: 10px 25px;
+   position: relative;
+   mix-blend-mode: exclusion;
+}
+#page2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 13vw 15vw;
+}
+#page2 h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: #0C12BE;
+}
+.images{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    position: relative;
+    height: 80vh;
+    width: 80vw;
+    border-radius: 20px;
+    overflow: hidden;
+}
+/* .image:hover{
+    transform: translate(-50%, -50%) scale(1.3);
+    transition: ease-in-out ,.4s;
+} */
+.image>img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.image>h1{
+    position: absolute;
+    z-index: 999;
+    bottom: 10%;
+    left: 5%;
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+}
+#c1{
+    color: #250E62;
+}
+#c2{
+    color: #0C12BE;
+}
+#text{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10vw;
+}
+#text h1{
+    font-weight: 500;
+    font-size: 4vw;
+    color: #0C12BE;
+    margin-bottom: 50px;
+}
+#text h2{
+    font-weight: 500;
+    font-size: 2vw;
+    color: #0C12BE;
+}
+#text2{
+    padding-top: 5vw;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#text2>h1{
+    color: rgb(80, 80, 236);
+    font-size: 2vw;
+    font-weight: 500;
+    padding-left: 10vw;
+}
+#fullnav{
+    margin-top: 10vh;
+    display: flex;
+    line-height: 5vw;
+    justify-content: space-evenly;
+}
+.pink{
+    font-weight: 500;
+    font-size: 2vw;
+    color: palevioletred;
+}
+#fullnav .nav1{
+    color: #0C12BE;
+    font-size: 1.3vw;
+}
+#fullnav .nav1 h2{
+    font-weight: 500;
+}
+#last{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    border-radius: 150px 150px 0px 0px;
+}
+#text3{
+    padding-left: 13vw;
+    padding-top: 30vh;
+}
+#text3>h2{
+    font-size:3vw;
+    font-weight: 500;
+    color: white;
+}
+#text3>h1{
+    font-size: 5vw;
+    font-weight: 600;
+    color: white;
+}
+#mail{
+    color: rgb(111, 111, 240);
+    padding-left: 12vw;
+    margin-top: 7vh;
+}
+#mail:hover{
+    color: #C689C6;
+}
+#nid:hover{
+    color: #C689C6;
+}
+#nid{
+    color: rgb(111, 111, 240);
+    padding-left: 13vw;
+}
+#text4>h1{
+    margin-top: 10vh;
+    padding-left: 13vw;
+    font-size: 3vw;
+    color: white;
+    font-weight: 500;
+}
+#lastimg{
+    position: absolute;
+    right: 9%;
+    top: 10%;
+}
+#animpage{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgb(239, 239, 139);
+    /* z-index: 9;  */
+    border-radius: 180px 180px 0px 0px;
+
+}
+
+#animpage1{
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+    position: absolute;
+    /* z-index: 9; */
+    border-radius: 180px 180px 0px 0px;
+}
+#animpage2{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(70, 138, 233);
+    position: absolute;
+    /* z-index: 9; */
+    border-radius: 180px 180px 0px 0px;
+}
+
+/* responsive code  */
+
+@media (max-width:500px){
+    #nav{
+        padding: 5vw 6vw;
+    }
+    #nav h1{
+        font-size:6.5vw;
+    }
+    #menu{
+        height: 8vh;
+        width: 15vw;
+    }
+    #page1b{
+        position: relative;
+    }
+    
+    #left{
+        width: 100%;
+        position: absolute;
+        padding: 0vw 5vw;
+      width: 100vw;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #left>h3{
+       font-size: 18vw;  
+    }
+    #right{
+        width: 100%;
+    }
+    #right img{
+        height: 160px;
+        margin: 25px 10px; 
+    }
+    #page2{
+        padding:12vw 9vw; ;
+    }
+    #page2 h1{
+        font-size: 13vw;
+    }
+    .images{
+        height:initial;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10vh;
+    }
+    .image{
+        position: relative;
+        height: 30vh;
+        width: 90vw;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .image>h1{
+        position: absolute;
+        z-index: 999;
+        bottom: 10%;
+        left: 5%;
+        font-size: 1.8vh;
+        width: 50%;
+        color: white;
+        font-weight: 500;
+    }
+    #text{
+        height: initial;
+        padding-left: 4vw;
+    }
+    #text h1{
+        font-size: 14vw;
+    }
+    #text h2{
+        font-size: 7vw;
+        margin-bottom: 10vh;
+    }
+    #text2{
+        padding-top: 5vw;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+    #text2>h1{
+        font-size:7vw;
+    }
+    #fullnav{
+        padding-left: 10vw;
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: column;
+        line-height: 9vw;
+        /* justify-content: space-evenly; */
+    }
+    .pink{
+        font-size: 8vw;
+        color: palevioletred;
+    }
+    #fullnav .nav1{
+        color: #0C12BE;
+        font-size: 5vw;
+        margin-bottom: 5vh;
+    }
+    #last{
+        position: relative;
+        width: 100%;
+        height:initial;
+        background-color: blue;
+        border-radius: 110px 110px 0px 0px;
+    }
+    #text3{
+        padding-left: 10vw;
+        padding-top: 10vh;
+    }
+    #text3>h2{
+        font-size:7vw;
+        font-weight: 500;
+        color: white;
+    }
+    #text3>h1{
+        font-size: 7vw;
+        font-weight: 600;
+        color: white;
+    }
+    #mail{
+        padding-left: 12vw;
+        margin-top: 7vh;
+        font-size: 5vw;
+    }
+    #nid{
+        color: rgb(111, 111, 240);
+        padding-left: 12vw;
+        font-size: 6vw;
+
+    }
+    #text4>h1{
+        margin-top: 8vh;
+        padding-left: 13vw;
+        font-size: 10vw;
+        color: white;
+        font-weight: 500;
+    }
+    #lastimg{
+        position: absolute;
+        right: 9%;
+        top: 10%;
+    }
+
+}
